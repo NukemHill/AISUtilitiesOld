@@ -1,13 +1,15 @@
 //
-//  AISUtilities.m
+//  AISHelloer.h
 //  AISUtilities
 //
 //  Created by Gregory Hill on 2/17/13.
 //  Copyright (c) 2013 Applied IS. All rights reserved.
 //
 
-#import "AISUtilities.h"
+#import <Foundation/Foundation.h>
 
-@implementation AISUtilities
+@interface AISHelloer : NSObject
+
+- (NSString *) hello;
 
 @end

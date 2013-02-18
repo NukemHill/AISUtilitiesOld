@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		A4B37F6A16D1A51E00369C55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B37F6916D1A51E00369C55 /* Foundation.framework */; };
-		A4B37F6F16D1A51E00369C55 /* AISUtilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A4B37F6E16D1A51E00369C55 /* AISUtilities.h */; };
-		A4B37F7116D1A51E00369C55 /* AISUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B37F7016D1A51E00369C55 /* AISUtilities.m */; };
 		A4B37F7916D1A51E00369C55 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B37F7816D1A51E00369C55 /* SenTestingKit.framework */; };
 		A4B37F7B16D1A51E00369C55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B37F7A16D1A51E00369C55 /* UIKit.framework */; };
 		A4B37F7C16D1A51E00369C55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B37F6916D1A51E00369C55 /* Foundation.framework */; };
 		A4B37F7F16D1A51E00369C55 /* libAISUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B37F6616D1A51E00369C55 /* libAISUtilities.a */; };
 		A4B37F8516D1A51E00369C55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4B37F8316D1A51E00369C55 /* InfoPlist.strings */; };
 		A4B37F8816D1A51E00369C55 /* AISUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B37F8716D1A51E00369C55 /* AISUtilitiesTests.m */; };
+		A4B37F9416D1A61900369C55 /* AISHelloer.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B37F9216D1A61900369C55 /* AISHelloer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B37F9516D1A61900369C55 /* AISHelloer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B37F9316D1A61900369C55 /* AISHelloer.m */; };
+		A4B37F9616D1A65100369C55 /* AISUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B37F6E16D1A51E00369C55 /* AISUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,25 +29,11 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		A4B37F6416D1A51E00369C55 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-				A4B37F6F16D1A51E00369C55 /* AISUtilities.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		A4B37F6616D1A51E00369C55 /* libAISUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAISUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B37F6916D1A51E00369C55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4B37F6D16D1A51E00369C55 /* AISUtilities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AISUtilities-Prefix.pch"; sourceTree = "<group>"; };
 		A4B37F6E16D1A51E00369C55 /* AISUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AISUtilities.h; sourceTree = "<group>"; };
-		A4B37F7016D1A51E00369C55 /* AISUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AISUtilities.m; sourceTree = "<group>"; };
 		A4B37F7716D1A51E00369C55 /* AISUtilitiesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AISUtilitiesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B37F7816D1A51E00369C55 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A4B37F7A16D1A51E00369C55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -54,6 +41,8 @@
 		A4B37F8416D1A51E00369C55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4B37F8616D1A51E00369C55 /* AISUtilitiesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AISUtilitiesTests.h; sourceTree = "<group>"; };
 		A4B37F8716D1A51E00369C55 /* AISUtilitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AISUtilitiesTests.m; sourceTree = "<group>"; };
+		A4B37F9216D1A61900369C55 /* AISHelloer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISHelloer.h; sourceTree = "<group>"; };
+		A4B37F9316D1A61900369C55 /* AISHelloer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISHelloer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				A4B37F6E16D1A51E00369C55 /* AISUtilities.h */,
-				A4B37F7016D1A51E00369C55 /* AISUtilities.m */,
+				A4B37F9216D1A61900369C55 /* AISHelloer.h */,
+				A4B37F9316D1A61900369C55 /* AISHelloer.m */,
 				A4B37F6C16D1A51E00369C55 /* Supporting Files */,
 			);
 			path = AISUtilities;
@@ -147,6 +137,18 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		A4B37F9116D1A5C900369C55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B37F9416D1A61900369C55 /* AISHelloer.h in Headers */,
+				A4B37F9616D1A65100369C55 /* AISUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		A4B37F6516D1A51E00369C55 /* AISUtilities */ = {
 			isa = PBXNativeTarget;
@@ -154,7 +156,7 @@
 			buildPhases = (
 				A4B37F6216D1A51E00369C55 /* Sources */,
 				A4B37F6316D1A51E00369C55 /* Frameworks */,
-				A4B37F6416D1A51E00369C55 /* CopyFiles */,
+				A4B37F9116D1A5C900369C55 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -243,7 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4B37F7116D1A51E00369C55 /* AISUtilities.m in Sources */,
+				A4B37F9516D1A61900369C55 /* AISHelloer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
